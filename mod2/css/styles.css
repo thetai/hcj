@@ -21,7 +21,7 @@ p.section-title, p.section-content {
 }
 
 .section {
-  padding: 20px;
+  /*padding: 20px;*/
   /*position: absolute;*/
   position: relative;
 }
@@ -34,6 +34,8 @@ p.section-title, p.section-content {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .section-content {
@@ -46,7 +48,7 @@ p.section-title, p.section-content {
   
   /*margin-right: 20px;
   margin-left: 20px;*/
-  
+  margin: 20px;  
 }
 
 .section-title-colors-1 {
