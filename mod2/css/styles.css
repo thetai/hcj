@@ -4,51 +4,40 @@
 }
 
 h1 {
-  /*margin-bottom: 5px;*/
   text-align: center;
   font-size: 175%
 }
 
-p.section-title, p.section-content {
-  border: 1px solid black;
-  font-family: Helvetica;
-}
-
-/* Simple Responsive Framework. */
 .row {
-  /*position: absolute;*/
   width: 100%;
 }
 
 .section {
-  /*padding: 20px;*/
-  /*position: absolute;*/
   position: relative;
+}
+
+.section-title, .section-content {
+  border: 1px solid black;
+  font-family: Helvetica;
+  margin: 10px;
+  font-size: 125%
 }
 
 .section-title {
   float: right;
   position: relative;
   width: 40%;
-  /*height: 45%;*/
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  margin-top: 20px;
-  margin-right: 20px;
 }
 
 .section-content {
   background-color: lightgrey;
   padding-top: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   height: 150px;
-  /*width: 90%;*/
-  
-  /*margin-right: 20px;
-  margin-left: 20px;*/
-  margin: 20px;  
 }
 
 .section-title-colors-1 {
