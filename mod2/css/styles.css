@@ -6,10 +6,11 @@
 h1 {
   /*margin-bottom: 5px;*/
   text-align: center;
+  font-size: 175%
 }
 
-p {
-  border: 2px solid black;
+p.section-title, p.section-content {
+  border: 1px solid black;
   font-family: Helvetica;
 }
 
@@ -22,15 +23,16 @@ p {
 .section {
   padding: 20px;
   /*position: absolute;*/
-  /*position: relative;*/
+  position: relative;
 }
 
 .section-title {
   float: right;
   position: relative;
   width: 40%;
-  height: 20%;
+  /*height: 45%;*/
   text-align: center;
+  font-size: 125%;
   font-weight: bold;
 }
 
